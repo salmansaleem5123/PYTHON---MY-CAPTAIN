@@ -1,0 +1,15 @@
+list1=[]
+
+term=int(input("Enter the number of terms "))
+i=1
+while(i<=term):
+    print("Enter ",i,"th number ")
+    ele=int(input())
+    list1.append(ele)
+    i=i+1
+
+print(list1)
+for num in  list1: 
+      
+    if num >= 0: 
+       print(num, end = " ") 
