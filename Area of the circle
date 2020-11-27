@@ -1,0 +1,9 @@
+print("PROGRAM TO FIND AREA OF CIRCLE ")
+n=float(input("Enter the radius of circle "))
+area=(n*n)*3.14
+print("Area of the circle is ",area)
+
+import os
+print("PROGRAM TO FIND EXTENSION OF FILE")
+file_name=input("Enter file name ")
+print(os.path.splitext(file_name)
