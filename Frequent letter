@@ -1,0 +1,6 @@
+from collections import Counter 
+def wordf(city_name):
+    result = Counter(city_name)
+    print("Count of all character in ",city_name," is \n",str(result))
+city_name=input("Enter city name\n")
+wordf(city_name)
